@@ -78,7 +78,7 @@ parser.add_argument("--colunas", type=int, default=3, help="Número de colunas (
 parser.add_argument("--openscad", default="openscad", help="Comando ou caminho do executável do OpenSCAD.")
 parser.add_argument("--outdir", default="out", help="Diretório onde serão salvos os arquivos gerados.")
 parser.add_argument("--keep-scad", action="store_true", help="Mantém os arquivos .scad intermediários.")
-parser.add_argument("--timeout", type=int, default=300, help="Timeout em segundos para renderização (padrão: 300s)")
+parser.add_argument("--timeout", type=int, default=600, help="Timeout em segundos para renderização (padrão: 300s)")
 
 args = parser.parse_args()
 
