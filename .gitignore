@@ -1,0 +1,8 @@
+# Ignorar pastas de build e dependências
+out/
+dist/
+build/
+
+# Ignorar arquivos temporários
+*.stl
+*.gcode
